@@ -4,7 +4,7 @@ import os
 # 定义目标目录的绝对路径
 target_dir = r"C:\Users\12189\Desktop\example_1"
 
-# 将目录添加到 Python 搜索路径
+# 将目录添加到 Python 搜索的路径
 if target_dir not in sys.path:
     sys.path.append(target_dir)
 
